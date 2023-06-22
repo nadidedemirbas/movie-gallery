@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`MovieDetail Component > should render correctly 1`] = `
+"<div class=\\"detail-main\\">
+  <div><img class=\\"image-fluid detail-image\\" src=\\"mock-poster\\" alt=\\"mock-title\\"></div>
+  <div>
+    <div class=\\"detail-title\\">mock-title</div>
+    <div class=\\"detail-plot\\"> Plot: mock-plot</div>
+    <div class=\\"detail-more\\"> Released: mock-release-date <br> Rating: mock-rating <br> Genre: mock-genre <br> Awards: mock-awards</div>
+  </div>
+</div>"
+`;
