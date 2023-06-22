@@ -24,9 +24,6 @@
 <script>
 export default {
   name: "MovieDetail",
-  props: {
-    title: String
-  },
   data() {
     return {
       movie: {}
