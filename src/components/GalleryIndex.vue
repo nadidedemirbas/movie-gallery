@@ -16,10 +16,12 @@ export default {
 
   data: function () {
     return {
-      movieIndex: {
-        Poster: '',
-        Title: 'Loading...'
-      }
+      movieIndex: [
+        {
+          Poster: '',
+          Title: 'Loading...'
+        }
+      ]
     }
   },
   created() {
