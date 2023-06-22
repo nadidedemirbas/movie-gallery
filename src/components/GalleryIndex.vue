@@ -1,6 +1,6 @@
 <template>
   <div class="index-table">
-    <div >Loading movies...</div>
+    <div v-if="movieIndex.length <= 1">Loading movies...</div>
     <TableCell v-if="movieIndex.length > 1" v-for="movie in movieIndex" :image="movie.Poster" :title="movie.Title"
                 :path="{ name: 'MovieDetail', params: { id: movie.imdbID } }" />
   </div>
