@@ -1,7 +1,7 @@
 <template>
   <div class="detail-main">
     <div>
-      <img class="image-fluid detail-image" :src="movie.Poster" :alt="title">
+      <img class="image-fluid detail-image" :src="movie.Poster" :alt="movie.Title">
     </div>
     <div>
       <div class="detail-title">
