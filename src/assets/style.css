@@ -1,0 +1,52 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+.index-table {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 5px;
+}
+.index-title {
+    font-size: 20px;
+}
+.index-cell {
+    text-align: center;
+    padding: 2rem;
+}
+.index-image-wrapper {
+    height: 20rem;
+}
+.index-movie-title-wrapper {
+}
+.image-fluid {
+    max-height: 100%;
+    max-width: 100%;
+}
+.detail-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    width: 50%;
+    margin: 5rem auto;
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: 10px 10px 20px #00000050;
+
+}
+.detail-image {
+    border-radius: 1rem;
+    width: 100%;
+}
+.detail-title {
+    font-size: 25px;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+.detail-plot {
+    font-size: 18px;
+    width: 100%;
+}
+.detail-more {
+    font-size: 12px;
+    margin-top: 2rem;
+}
