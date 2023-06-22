@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TableCell Component > should render correctly 1`] = `
+"<div class=\\"index-cell\\">
+  <router-link to=\\"\\">
+    <div>
+      <div class=\\"index-image-wrapper\\"><img class=\\"image-fluid\\"></div>
+      <div class=\\"index-movie-title-wrapper\\"></div>
+    </div>
+  </router-link>
+</div>"
+`;
